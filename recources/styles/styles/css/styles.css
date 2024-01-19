@@ -112,6 +112,17 @@ h3 {
 
 .btn{
     background: var(--clr-btn-bg);
+    border: var(--clr-btn-bg), 1px solid;
+    color: var(--clr-btn-text);
+    
+}
+.btn:hover{
+    background: var(--jumbotron-bg);
+    border: var(--clr-btn-bg), 1px solid;
+    color: var(--clr-btn-text);
+}
+.navbar{
+    background: var(--clr-navbar-bg);
 }
 
 :root, light {
@@ -119,16 +130,22 @@ h3 {
     --clr-card-bg: hsl(0 0% 100%);
     --clr-text: hsl(0 0% 15%);
     --clr-heading: hsl(0 0% 25%);
-    --clr-jumbotron-bg: hsl(0, 2%, 54%);
-    --clr-btn-bg: hsl(0, 100%, 47%);
+    --jumbotron-bg: hsl(0, 7%, 81%);
+    --clr-btn-bg: hsl(0, 1%, 26%);
+    --clr-navbar-bg: hsl(0, 1%, 27%);
+    --clr-btn-text: #fff;
+
 }
 
 .pink {
-    --clr-body-bg: hsl(310 50% 90%);
-    --clr-card-bg: hsl(231, 100%, 73%);
+    --clr-body-bg: #FFC2D1;
+    --clr-card-bg: #FFB3C6;
     --clr-text: hsl(310 50% 15%);
     --clr-heading: hsl(310 50% 25%);
-    /* --jumbotron-bg: hsl(0, 100%, 93%); */
+    --jumbotron-bg: #FFB3C6 ;
+    --clr-navbar-bg: #FB6F92;
+    --clr-btn-bg: #FB6F92;
+    --clr-btn-text: #fff;
 }
 
 .blue {
