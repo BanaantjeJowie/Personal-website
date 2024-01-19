@@ -55,7 +55,7 @@ h3 {
 }
 
 .color-picker {
-    border: 0;
+    border: 1px solid var(--clr-heading);
     background: #fff;
 }
 
@@ -72,6 +72,7 @@ h3 {
     display: flex;
     gap: 1rem;
     align-items: center;
+    color: var(--clr-heading);
 }
 
 .color-picker label {
@@ -108,6 +109,8 @@ h3 {
 
 .dropdown-menu {
     background: var(--clr-card-bg);
+    border: 1px solid var(--clr-heading);
+    
 }
 
 .btn{
@@ -123,6 +126,12 @@ h3 {
 }
 .navbar{
     background: var(--clr-navbar-bg);
+}
+
+.theme{
+    background: var(--clr-navbar-bg);
+    color: var(--clr-);
+    border: var(--clr-btn-bg), 1px solid;
 }
 
 :root, light {
@@ -145,7 +154,7 @@ h3 {
     --jumbotron-bg: #FFB3C6 ;
     --clr-navbar-bg: #FB6F92;
     --clr-btn-bg: #FB6F92;
-    --clr-btn-text: #fff;
+    --clr-btn-text: #fafafa;
 }
 
 .blue {
