@@ -89,7 +89,7 @@ h3 {
 }
 
 .color-picker input[type="radio"]#pink {
-    --radio-color: pink;
+    --radio-color: rgb(238, 31, 203);
 }
 
 .color-picker input[type="radio"]#blue {

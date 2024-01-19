@@ -5,51 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Joe</title>
     <link rel="stylesheet" href="./recources/styles/styles/css/bootstrap.css">
+    <link rel="stylesheet" href="./recources/styles/styles/css/styles.css">
     <script src="./recources/styles/styles/js/bootstrap.bundle.js"></script>
     <script src="./recources/styles/styles/js/bootstrap.bundle.min.js"></script>
     <script src="./recources/styles/styles/js/bootstrap.js"></script>
     <script src="./recources/styles/styles/js/bootstrap.min.js"></script>
-    <script src="./recources/js/script.js"></script>
+    <script src="./recources/js/script.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     
-    <div>
-        <nav class="navbar navbar-expand-lg  navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="./index.html"><img style="height:30px;" src="./recources/images/banaan logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./about_me.html">About me</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                    Projects
-                  </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="...">project 1</a>
-                    <a class="dropdown-item" href="...">project 2</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                  </li>
-              </ul>
-              
+  <nav class="navbar navbar-expand-lg  navbar navbar-dark ">
+    <a class="navbar-brand" href="./index.html"><img style="height:30px;" src="./recources/images/banaan logo.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about_me.html">About me</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="...">project 1</a>
+            <a class="dropdown-item" href="...">project 2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else her</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <div class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Themes
             </div>
-          </nav>
+            <div class="dropdown-menu color-picker">
+                <div class="dropdown-item">
+                  <input type="radio" name="theme" id="light" checked>
+                  <label for="light">Light</label>
+                </div>
+                <div class="dropdown-item">
+                  <input type="radio" id="pink" name="theme">
+                  <label for="pink">Pink</label>
+                </div>
+                <div class="dropdown-item">
+                  <input type="radio" id="blue" name="theme">
+                  <label for="blue">Blue</label>
+                </div>
+                <div class="dropdown-item">
+                  <input type="radio" id="green" name="theme">
+                  <label for="green">Green</label>
+                </div>
+                <div class="dropdown-item">
+                  <input type="radio" id="dark" name="theme">
+                  <label for="dark">Dark</label>
+                </div>
+          </div>
+        </li>
+      </ul>
+      
     </div>
-
+  </nav>
     
 </body>
