@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Joe</title>
     <link rel="stylesheet" href="./recources/styles/styles/css/bootstrap.css">
+    <link rel="stylesheet" href="./recources/styles/styles/css/styles.css">
     <script src="./recources/styles/styles/js/bootstrap.bundle.js"></script>
     <script src="./recources/styles/styles/js/bootstrap.bundle.min.js"></script>
     <script src="./recources/styles/styles/js/bootstrap.js"></script>
     <script src="./recources/styles/styles/js/bootstrap.min.js"></script>
-    <script src="./recources/js/script.js"></script>
+    <script src="./recources/js/script.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 <body>
-    <div>
         <nav class="navbar navbar-expand-lg  navbar navbar-dark bg-dark">
             <a class="navbar-brand" href="./index.html"><img style="height:30px;" src="./recources/images/banaan logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,20 +44,43 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.html">Contact</a>
                   </li>
+                  <li class="nav-item dropdown">
+                    <div class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                      Themes
+                    </div>
+                    <div class="dropdown-menu color-picker">
+                        <div class="dropdown-item">
+                          <input type="radio" name="theme" id="light" checked>
+                          <label for="light">Light</label>
+                        </div>
+                        <div class="dropdown-item">
+                          <input type="radio" id="pink" name="theme">
+                          <label for="pink">Pink</label>
+                        </div>
+                        <div class="dropdown-item">
+                          <input type="radio" id="blue" name="theme">
+                          <label for="blue">Blue</label>
+                        </div>
+                        <div class="dropdown-item">
+                          <input type="radio" id="green" name="theme">
+                          <label for="green">Green</label>
+                        </div>
+                        <div class="dropdown-item">
+                          <input type="radio" id="dark" name="theme">
+                          <label for="dark">Dark</label>
+                        </div>
+                  </div>
+                </li>
               </ul>
               
             </div>
           </nav>
-    </div>
-    <div>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
+        <div class="jumbotron jumbotron-fluid container px-2">
               <h1 class="display-4">Welkom op Joë's persoonlijke website!</h1>
               <p class="lead">Hallo! Mijn naam is Joë Boone, een gedreven ontwikkelaar uit Brugge! Lees gerust verder om mij te leren kennen.</p>
               
-            </div>
           </div>
-    </div>
+    <div class="container">
     <div style="width: 75%; margin-left: 10%;">
         <div class="media">
             <img src="./recources/images/hoofd jowie.png" class="align-self-start mr-3" alt="..." style="width: 5%;">
@@ -69,7 +92,6 @@
             
           </div>
     </div>
-    <div style="margin-left: 12%;" class="container">
         <div class="row">
           <div class="col-sm">
             
@@ -81,15 +103,11 @@
            
           </div>
         </div>
-      </div>
     <div style="text-align: center;">
         <hr style="width: 80%; border: 1px solid #000; margin-top: 5%; margin-bottom: 5%;">
     </div>   
-    <div class="container" style="margin-bottom: 2%;">
         <h1 class="display-5">Mijn Contacten</h1>
         
-    </div>
-    <div class="container" style="margin-bottom: 5%;">
         <div class="row">
           <div class="col-sm">
             <div class="card" style="width: 18rem;">
@@ -107,30 +125,15 @@
             ...
           </div>
         </div>
-    </div>
     <div style="text-align: center;">
         <hr style="width: 80%; border: 1px solid #000; margin-top: 5%; margin-bottom: 5%;">
     </div>
-    <div class="container" style="margin-left: 12%;">
-        <div class="row">
-          <div class="col-sm">
             Kijk gerust eens rond en neem gerust contact met mij op. Ik wil altijd graag in contact komen met gelijkgestemde individuen en nieuwe kansen verkennen. Bedankt voor uw bezoek, en ik hoop dat u geniet van uw verblijf! 
-            </div>
-          <div class="col-sm">
-           
-
-
-          </div>
-          <div class="col-sm">
-            
-          </div>
-        </div>
-      </div>
     </div>
+  </div>
     <div style="text-align: center;">
         <hr style="width: 80%; border: 1px solid #000; margin-top: 5%; margin-bottom: 5%;">
     </div>
-    <div class="container" style="margin-left: 12% ;margin-bottom: 2%;">
         <div class="row">
           <div class="col-sm">
             <p style="text-align: right; margin-top: 2%;">©2024</p>
@@ -146,7 +149,6 @@
           </div>
         </div>
       </div>
-    </div>
     <div>
 
     </div>
