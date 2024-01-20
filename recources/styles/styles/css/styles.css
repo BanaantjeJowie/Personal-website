@@ -112,12 +112,41 @@ h3 {
 .dropdown-menu {
     background: var(--clr-card-bg);
     border: 1px solid var(--clr-heading);
+    color: var(--clr-btn-text);
     
 }
 
+.center-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-me-btn{
+    margin: 0.5rem;
+    width: 9rem;
+}
+.sm-btn{
+    margin: 0.5rem;
+    width: 7rem;
+}
+.sm-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-item {
+    background: var(--clr-card-bg);
+    color: var(--clr-btn-text);
+}
+
+.line {
+    color: var(--clr-heading);
+}
 .btn{
     background: var(--clr-btn-bg);
-    border: var(--clr-btn-bg), 1px solid;
+    border: var(--clr-btn-text), 1px solid;
     color: var(--clr-btn-text);
     
 }
@@ -137,15 +166,14 @@ h3 {
 }
 
 :root, light {
-    --clr-body-bg: hsl(0 0% 90%);
+    --clr-body-bg: hsl(0, 8%, 95%);
     --clr-card-bg: hsl(0 0% 100%);
     --clr-text: hsl(0 0% 15%);
     --clr-heading: hsl(0 0% 25%);
-    --jumbotron-bg: hsl(0, 7%, 81%);
-    --clr-btn-bg: hsl(0, 2%, 25%);
-    --clr-navbar-bg: hsl(0, 1%, 27%);
+    --jumbotron-bg: hsl(0, 5%, 84%);
+    --clr-btn-bg: hsl(0, 1%, 15%);
+    --clr-navbar-bg: hsl(0, 2%, 9%);
     --clr-btn-text: #fff;
-
 }
  
 .pink {
@@ -161,17 +189,25 @@ h3 {
 
 
 .blue {
-    --clr-body-bg: hsl(209 50% 90%);
+    --clr-body-bg: hsl(209, 66%, 84%);
     --clr-card-bg: hsl(209 50% 100%);
     --clr-text: hsl(209 50% 15%);
     --clr-heading: hsl(209 50% 25%);
+    --jumbotron-bg: #8772fc ;
+    --clr-navbar-bg: #354fc0;
+    --clr-btn-bg: #5b6fdf;
+    --clr-btn-text: #fafafa;
 }
 
 .green {
     --clr-body-bg: hsl(109 50% 90%);
     --clr-card-bg: hsl(109 50% 100%);
-    --clr-text: hsl(109 50% 15%);
+    --clr-text: hsl(109, 50%, 23%);
     --clr-heading: hsl(109 50% 25%);
+    --jumbotron-bg: #72cf72 ;
+    --clr-navbar-bg: #2a9b2a;
+    --clr-btn-bg: #2eb435;
+    --clr-btn-text: #fafafa;
 }
 
 .dark {
@@ -179,4 +215,8 @@ h3 {
     --clr-card-bg: hsl(209 50% 5%);
     --clr-text: hsl(209 50% 90%);
     --clr-heading: hsl(209 50% 80%);
+    --jumbotron-bg: #000000 ;
+    --clr-navbar-bg: hsl(209 50% 10%);
+    --clr-btn-bg: #000000;
+    --clr-btn-text: #fafafa;
 }
