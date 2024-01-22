@@ -34,6 +34,7 @@ h3 {
     padding: 1rem;
     background-color: var(--clr-card-bg);
     border-block-start: 0.5rem solid;
+    border-color: var(--clr-border);
     border-radius: 0.5rem;
 }
 
@@ -129,6 +130,7 @@ h3 {
 .sm-btn{
     margin: 0.5rem;
     width: 7rem;
+    margin-bottom: 1rem;
 }
 .sm-footer {
     display: flex;
@@ -138,7 +140,7 @@ h3 {
 
 .dropdown-item {
     background: var(--clr-card-bg);
-    color: var(--clr-btn-text);
+    color: var(--clr-heading);
 }
 
 .line {
@@ -174,6 +176,7 @@ h3 {
     --clr-btn-bg: hsl(0, 1%, 15%);
     --clr-navbar-bg: hsl(0, 2%, 9%);
     --clr-btn-text: #fff;
+    --clr-border: hsl(0 0% 25%);
 }
  
 .pink {
@@ -185,6 +188,7 @@ h3 {
     --clr-navbar-bg: #FB6F92;
     --clr-btn-bg: #FB6F92;
     --clr-btn-text: #fafafa;
+    --clr-border: hsl(310 50% 25%);
 }
 
 
@@ -197,6 +201,7 @@ h3 {
     --clr-navbar-bg: #354fc0;
     --clr-btn-bg: #5b6fdf;
     --clr-btn-text: #fafafa;
+    --clr-border: hsl(209 50% 25%);
 }
 
 .green {
@@ -208,6 +213,7 @@ h3 {
     --clr-navbar-bg: #2a9b2a;
     --clr-btn-bg: #2eb435;
     --clr-btn-text: #fafafa;
+    --clr-border: hsl(109 50% 25%);
 }
 
 .dark {
@@ -219,4 +225,5 @@ h3 {
     --clr-navbar-bg: hsl(209 50% 10%);
     --clr-btn-bg: #000000;
     --clr-btn-text: #fafafa;
+    --clr-border: hsl(209 50% 80%);
 }
